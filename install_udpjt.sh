@@ -645,7 +645,7 @@ perform_install_manager_script() {
     local _symlink_path="/usr/local/bin/udpjt"
     
     echo "Downloading manager script..."
-    curl -o "$_manager_script" "https://github.com/JotchuaDevz/UDP-JT-MANAGER/raw/main/udpjt_manager.sh"
+    curl -L -o "$_manager_script" "https://raw.githubusercontent.com/JotchuaDevz/UDP-JT-MANAGER/main/udpjt_manager.sh"
     chmod +x "$_manager_script"
     
     echo "Creating symbolic link to run the manager script using 'udpjt' command..."
@@ -654,7 +654,6 @@ perform_install_manager_script() {
     echo "Manager script installed at $_manager_script"
     echo "You can now run the manager using the 'udpjt' command."
 }
-
 
 is_hysteria_installed() {
     # RETURN VALUE
