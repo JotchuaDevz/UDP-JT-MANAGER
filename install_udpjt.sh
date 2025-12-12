@@ -645,7 +645,7 @@ perform_install_manager_script() {
     local _symlink_path="/usr/local/bin/udpjt"
     
     echo "Downloading manager script..."
-    curl -o "$_manager_script" "https://github.com/JotchuaDevz/UDP-JT-MANAGER/blob/main/udpjt_manager.sh"
+    curl -o "$_manager_script" "https://github.com/JotchuaDevz/UDP-JT-MANAGER/raw/main/udpjt_manager.sh"
     chmod +x "$_manager_script"
     
     echo "Creating symbolic link to run the manager script using 'udpjt' command..."
