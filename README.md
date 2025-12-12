@@ -4,7 +4,7 @@ THIS IS A SCRIPT FOR AUTO INSTALLATION OF UDP (HYSTERIA SERVER)
 
 // Download the script
 ```
-wget https://github.com/khaledagn/AGN-UDP/raw/main/install_agnudp.sh; chmod +x install_udpjt.sh; ./install_udpjt.sh
+wget https://raw.githubusercontent.com/JotchuaDevz/UDP-JT-MANAGER/refs/heads/main/install_udpjt.sh; chmod +x install_udpjt.sh; ./install_udpjt.sh
 ```
 // Editar Configuracion (Preferible)
 ```
