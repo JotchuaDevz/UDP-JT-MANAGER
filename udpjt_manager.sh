@@ -1,6 +1,6 @@
 #!/bin/bash
 
-CONFIG_DIR="/etc/udpjt"
+CONFIG_DIR="/etc/hysteria"
 CONFIG_FILE="$CONFIG_DIR/config.json"
 USER_DB="$CONFIG_DIR/udpusers.db"
 SYSTEMD_SERVICE="/etc/systemd/system/hysteria-server.service"
