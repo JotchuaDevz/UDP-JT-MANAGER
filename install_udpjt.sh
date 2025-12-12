@@ -433,7 +433,7 @@ show_usage_and_exit() {
     echo
     echo -e "Usage:"
     echo
-    echo -e "$(tbold)Install AGN-UDP$(treset)"
+    echo -e "$(tbold)Install UDP-JT$(treset)"
     echo -e "\t$0 [ -f | -l <file> | --version <version> ]"
     echo -e "Flags:"
     echo -e "\t-f, --force\tForce re-install latest or specified version even if it has been installed."
@@ -645,7 +645,7 @@ perform_install_manager_script() {
     local _symlink_path="/usr/local/bin/udpjt"
     
     echo "Downloading manager script..."
-    curl -L -o "$_manager_script" "https://raw.githubusercontent.com/JotchuaDevz/UDP-JT-MANAGER/main/udpjt_manager.sh"
+    curl -L -o "/usr/local/bin/udpjt_manager.sh" "https://raw.githubusercontent.com/JotchuaDevz/UDP-JT-MANAGER/main/udpjt_manager.sh"
     chmod +x "$_manager_script"
     
     echo "Creating symbolic link to run the manager script using 'udpjt' command..."
